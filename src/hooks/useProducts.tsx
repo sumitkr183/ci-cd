@@ -9,6 +9,7 @@ export interface IProduct {
   category: string;
   price: number;
   thumbnail: string;
+  rating: number;
 }
 
 export const useGetProducts = () => {
