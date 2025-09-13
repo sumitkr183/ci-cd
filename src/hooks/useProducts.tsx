@@ -10,6 +10,7 @@ export interface IProduct {
   price: number;
   thumbnail: string;
   rating: number;
+  stock: number;
 }
 
 export const useGetProducts = () => {
